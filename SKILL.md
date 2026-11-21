@@ -16,7 +16,7 @@ herdr-app ls            # spaces → tabs → terminals (JSON; ground truth of w
 hc ls                   # flat view + every terminal on every connected machine
 ```
 
-Pick the user's tab by name (e.g. `marfolio`) and record each terminal address (`t9n`, `t9t`).
+Pick the user's tab by name and record each terminal address (e.g. `t9n`, `t9t`).
 An address is stable until the terminal is closed. Do not invent addresses; if the tab is not
 in `herdr-app ls`, say so.
 
