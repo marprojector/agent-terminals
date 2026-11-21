@@ -38,7 +38,7 @@ Any other harness: drop `SKILL.md` wherever that harness loads skills from.
 
 Ask in plain language, naming the tab:
 
-> supervise the marfolio tab
+> supervise the web tab
 
 or invoke it directly where the harness supports slash commands:
 
