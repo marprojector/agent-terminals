@@ -1,4 +1,4 @@
-# hc-supervisor
+# agent-terminals
 
 A drop-in skill that lets one AI agent session supervise the other terminals of a
 [Herdr](https://github.com/marprojector/marherdr) tab — read them, prompt them, wait on them,
@@ -21,15 +21,15 @@ permission dialog).
 Claude Code:
 
 ```sh
-mkdir -p ~/.claude/skills/hc-supervisor
-cp SKILL.md ~/.claude/skills/hc-supervisor/SKILL.md
+mkdir -p ~/.claude/skills/agent-terminals
+cp SKILL.md ~/.claude/skills/agent-terminals/SKILL.md
 ```
 
 omp:
 
 ```sh
-mkdir -p ~/.omp/agent/skills/hc-supervisor
-cp SKILL.md ~/.omp/agent/skills/hc-supervisor/SKILL.md
+mkdir -p ~/.omp/agent/skills/agent-terminals
+cp SKILL.md ~/.omp/agent/skills/agent-terminals/SKILL.md
 ```
 
 Any other harness: drop `SKILL.md` wherever that harness loads skills from.
@@ -42,7 +42,7 @@ Ask in plain language, naming the tab:
 
 or invoke it directly where the harness supports slash commands:
 
-> /hc-supervisor
+> /agent-terminals
 
 The skill will run `herdr-app ls` to find the tab's terminals, then work from the addresses
 it actually finds. It never invents terminal addresses.

@@ -1,9 +1,9 @@
 ---
-name: hc-supervisor
-description: Supervise a Herdr tab from any AI agent session (Claude Code, omp, scripts). Lets you read, prompt, wait on, and interrupt the terminals of an open Herdr tab over `hc`, so one session can act as the supervisor of the others. Use when the user mentions Herdr, hc, a tab name, supervising/delegating between terminals, or asks to drive another agent pane.
+name: agent-terminals
+description: Watch and steer the other AI terminal sessions of a Herdr tab (omp, Claude Code, scripts) from this session over the `hc` CLI — list them, read what each is doing, send prompts, wait, interrupt. Use when the user wants to see or drive subagents/agent panes in their terminal instead of inside the AI, or mentions Herdr, hc, a tab name, or supervising/delegating between terminals.
 ---
 
-# hc-supervisor
+# agent-terminals
 
 Drive the other terminals of a Herdr tab from this session. `hc` talks to `herdr-core` (the
 daemon behind the Herdr desktop app), so it works even though `herdr status` reports its own
